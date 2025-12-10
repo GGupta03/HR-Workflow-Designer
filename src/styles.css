@@ -1,0 +1,19 @@
+ :root{--bg:#f4f6fb;--card:#ffffff;--accent:#0b5fff;--muted:#6b7280}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Helvetica,Arial;background:var(--bg);color:#111}
+.app{display:flex;height:100vh;gap:12px}
+.sidebar{width:260px;background:var(--card);padding:16px;border-right:1px solid #eee;overflow:auto}
+.canvasWrap{flex:1;padding:12px;position:relative;background:transparent}
+.editor{width:320px;background:var(--card);padding:16px;border-left:1px solid #eee;overflow:auto}
+.header{font-weight:700;margin-bottom:8px;color:#111}
+.nodeItem{padding:12px;margin:8px 0;border:1px dashed #e6e9ef;border-radius:8px;cursor:grab;background:#fafbff}
+.paletteHint{font-size:13px;color:var(--muted);margin-top:8px}
+.controls{display:flex;gap:8px;margin-bottom:8px}
+.runBtn{background:var(--accent);color:#fff;padding:8px 12px;border:none;border-radius:8px;cursor:pointer}
+.log{background:#072a3b;color:#cfeef5;padding:12px;border-radius:8px;height:220px;overflow:auto;font-size:13px}
+.smallBadge{display:inline-block;padding:4px 8px;border-radius:999px;background:#f1f5f9;color:#0b5fff;font-weight:700;margin-right:6px;font-size:12px;border:1px solid #e6eefc}
+.nodeCard{padding:12px;border-radius:8px;box-shadow:0 2px 8px rgba(15,23,42,0.05);background:#fff;border:1px solid #eef2ff;min-width:160}
+.nodeTitle{font-weight:700;font-size:14px;margin-bottom:6px}
+.nodeMeta{font-size:12px;color:#6b7280}
+.topBar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.footerNote{font-size:12px;color:var(--muted);margin-top:12px}
