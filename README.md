@@ -1,4 +1,4 @@
-# HR Workflow Designer - Final Prototype
+# HR Workflow Designer 
 
 ## Summary
 This project demonstrates a mini HR Workflow Designer built with React and React Flow.
