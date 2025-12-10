@@ -13,6 +13,17 @@ It focuses on modular architecture, dynamic node forms, mock API interactions, a
 - **Communication**: This README and inline comments explain design choices and assumptions.
 - **Delivery speed**: Prototype is lightweight and can be extended quickly.
 
+## Features
+
+- Drag-and-drop workflow builder (React Flow)
+- Custom node types: **Start**, **Task**, **Approval**, **Automated Step**, **End**
+- Node configuration panel with validation (react-hook-form + Yup)
+- Mock API with MSW  
+  - `GET /automations` – fetch automation actions  
+  - `POST /simulate` – run workflow and return execution steps
+- Simulation panel with real-time logs
+- Extensible architecture using context + hooks
+  
 ## Run
 1. `npm install`
 2. `npm run dev`
